@@ -99,6 +99,8 @@ defining them in this alist."
     ("zenburn-fg"       . "#DCDCCC")
     ("zenburn-fg+1"     . "#FFFFEF")
     ("zenburn-fg+2"     . "#FFFFFD")
+    ("zenburn-fg-1"     . "#656555")
+    ("zenburn-bg-3"     . "#666"   )
     ("zenburn-bg-2"     . "#000000")
     ("zenburn-bg-1"     . "#2B2B2B")
     ("zenburn-bg-08"    . "#303030")
@@ -242,7 +244,7 @@ Also bind `class' to ((class color) (min-colors 89))."
      ((t (:foreground ,zenburn-green-2
                       :background ,zenburn-bg-05
                       :box (:line-width -1 :style released-button)))))
-   `(region ((,class (:background ,zenburn-bg-1 :extend t))
+   `(region ((,class (:background ,zenburn-bg-3 :extend t))
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,zenburn-bg+2))))
    `(trailing-whitespace ((t (:background ,zenburn-red))))
